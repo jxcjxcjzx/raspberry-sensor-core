@@ -44,7 +44,7 @@ module.exports.get = function(cb) {
 
             state.coreVolts = volts;
 
-            coreVolts.measure(function(volts, err) {
+            piVolts(function(volts, err) {
                 if (err) return cb(err, null);
 
                 state.coreSDRamVolts = volts;
