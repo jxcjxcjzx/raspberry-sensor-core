@@ -1,0 +1,19 @@
+{
+  "name": "raspberry-sensor-core",
+  "version": "1.0.0",
+  "description": "Simple monitoring of the core temperature and voltages of the Raspberry Pi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teuteuguy/raspberry-sensor-core.git"
+  },
+  "author": "teuteuguy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teuteuguy/raspberry-sensor-core/issues"
+  },
+  "homepage": "https://github.com/teuteuguy/raspberry-sensor-core#readme"
+}
